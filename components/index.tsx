@@ -1,3 +1,22 @@
+// pages/index.tsx
+
+import type { ReactElement } from 'react'
+import Layout from '../components/layout'
+import NestedLayout from '../components/nested-layout'
+
+export default function Page() {
+  return {
+    /** Your content */
+  }
+}
+
+Page.getLayout = function getLayout(page: ReactElement) {
+  return (
+    <Layout>
+      <NestedLayout>{page}</NestedLayout>
+    </Layout>
+  )
+}
 // pages/_app.tsx
 
 import type { ReactElement, ReactNode } from 'react'
