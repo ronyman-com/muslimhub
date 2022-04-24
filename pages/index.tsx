@@ -45,7 +45,7 @@ const Home: NextPage = () => {
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h2>Lest's Started &rarr;</h2>
+            <h2>Lests Started &rarr;</h2>
             <p>
               .
             </p>
